@@ -1,0 +1,66 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background : -webkit-gradient(linear,left top, left bottom,from(#094047),color-stop(#5a9b06),to(rgb(216, 11, 220)));
+    background : -o-linear-gradient(#094047,#5a9b06,rgb(216, 11, 220));
+    background : linear-gradient(#094047,#5a9b06,rgb(216, 11, 220));
+}
+#panel{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    -webkit-box-shadow: 0 20px 30px rgba(0,0,0,0.4);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.4);
+}
+.icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100px;
+    height: 100%;
+    color: #fff;
+    /* background-color: red; */
+}
+#panel img{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 50px;
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
